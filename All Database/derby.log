@@ -1,0 +1,53 @@
+Fri Jan 29 19:31:37 IST 2016 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Fri Jan 29 19:31:42 IST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0152-8db0-7226-fffff1a3de27 
+on database directory C:\Users\Nikhil\.netbeans-derby\Ads with class loader sun.misc.Launcher$AppClassLoader@5e2de80c 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_66/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_66-b18
+user.dir=C:\Program Files\Java\jdk1.8.0_66\db
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=C:\Users\Nikhil\.netbeans-derby
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jan 29 19:31:44 IST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance fb160050-0152-8db0-7226-fffff1a3de27 
+on database directory C:\Users\Nikhil\.netbeans-derby\messages with class loader sun.misc.Launcher$AppClassLoader@5e2de80c 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_66/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_66-b18
+user.dir=C:\Program Files\Java\jdk1.8.0_66\db
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=C:\Users\Nikhil\.netbeans-derby
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jan 29 19:31:45 IST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance 12564092-0152-8db0-7226-fffff1a3de27 
+on database directory C:\Users\Nikhil\.netbeans-derby\Threat with class loader sun.misc.Launcher$AppClassLoader@5e2de80c 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_66/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_66-b18
+user.dir=C:\Program Files\Java\jdk1.8.0_66\db
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=C:\Users\Nikhil\.netbeans-derby
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jan 29 19:31:50 IST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance 72e9c096-0152-8db0-7226-fffff1a3de27 
+on database directory C:\Users\Nikhil\.netbeans-derby\login with class loader sun.misc.Launcher$AppClassLoader@5e2de80c 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_66/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_66-b18
+user.dir=C:\Program Files\Java\jdk1.8.0_66\db
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=C:\Users\Nikhil\.netbeans-derby
+Database Class Loader started - derby.database.classpath=''

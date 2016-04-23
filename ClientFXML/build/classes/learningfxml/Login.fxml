@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="524.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="learningfxml.Login">
+   <children>
+      <Label alignment="CENTER" layoutX="250.0" layoutY="60.0" text="Welcome to ECS" textFill="#b52fcc" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Monotype Corsiva" size="33.0" />
+         </font>
+      </Label>
+      <HBox layoutX="219.0" layoutY="136.0">
+         <children>
+            <Label alignment="CENTER" layoutX="29.0" layoutY="70.0" text="Enter Username : " />
+            <TextField fx:id="username" alignment="CENTER" layoutX="140.0" layoutY="66.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="221.0" layoutY="196.0">
+         <children>
+            <Label alignment="CENTER" layoutX="31.0" layoutY="110.0" text="Enter Password : " />
+            <PasswordField fx:id="password" alignment="CENTER" layoutX="140.0" layoutY="106.0" onAction="#checkusername" />
+         </children>
+      </HBox>
+      <Button fx:id="loginbutton" alignment="CENTER" layoutX="349.0" layoutY="253.0" mnemonicParsing="false" onAction="#checkusername" text="Login ">
+         <effect>
+            <DropShadow color="#721a1a" height="23.97" radius="14.45" spread="0.17" width="35.83" />
+         </effect>
+      </Button>
+      <Button fx:id="newuser" alignment="CENTER" layoutX="250.0" layoutY="253.0" mnemonicParsing="false" onAction="#newuser" text="New User" textFill="#21478f" />
+      <Label fx:id="login_status" layoutX="128.0" layoutY="325.0" prefHeight="78.0" prefWidth="475.0">
+         <font>
+            <Font name="Monotype Corsiva" size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

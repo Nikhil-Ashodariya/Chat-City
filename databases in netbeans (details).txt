@@ -1,0 +1,68 @@
+1--->
+Driver class---> org.apache.derby.jdbc.ClientDriver
+DB Url---------> jdbc:derby://localhost:1527/login
+DataBase name ---> login
+Username---> nikhil
+password----> 1234
+Table name----> users
+
+
+
+
+2---->
+database name---> arts
+username--------> nikhil
+password--------> 123
+table name------> set1
+table name------> set2
+
+
+
+3---->
+database name---> science
+username--------> nikhil
+password--------> 123
+table name------> set1
+table name------> set2
+
+
+4--->
+org.apache.derby.jdbc.ClientDriver
+jdbc:derby://localhost:1527/Ads
+database name---> Ads
+username--------> nikhil
+password--------> 1234
+tablename-------> adspromo
+
+5---->
+database name---> question
+username--------> nikhil
+password--------> 1234
+tablename-------> q1
+
+
+6---->
+driver---->org.apache.derby.jdbc.ClientDriver
+db url---->jdbc:derby://localhost:1527/messages
+database name---> messages
+username--------> nikhil
+password--------> 1234
+tablename-------> msg
+
+
+7----->
+org.apache.derby.jdbc.ClientDriver
+jdbc:derby://localhost:1527/admin
+db name--->admin
+username------> nikhil
+password------> 123
+table name----> admin
+
+
+8----->
+org.apache.derby.jdbc.ClientDriver
+jdbc:derby://localhost:1527/files
+db name ---> files
+username------> nikhil
+password------> 123
+table name----> filespath

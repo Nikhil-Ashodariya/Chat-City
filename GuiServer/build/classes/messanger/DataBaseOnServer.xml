@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <adsdbdriver>org.apache.derby.jdbc.ClientDriver</adsdbdriver>
+    <adsdburl>jdbc:derby://localhost:1527/Ads</adsdburl>
+    <adsdbtablename>adspromo</adsdbtablename>
+    <adsdbusername>nikhil</adsdbusername>
+    <adsdbpassword>123</adsdbpassword>
+    
+    <msgdbdriver>org.apache.derby.jdbc.ClientDriver</msgdbdriver>
+    <msgdburl>jdbc:derby://localhost:1527/messages</msgdburl>
+    <msgdbusername>nikhil</msgdbusername>
+    <msgdbpassword>123</msgdbpassword>
+    <msgdbtablename>msg</msgdbtablename>
+    
+    <logindbdriver>org.apache.derby.jdbc.ClientDriver</logindbdriver>
+    <logindburl>jdbc:derby://localhost:1527/login</logindburl>
+    <logindbtablename>users</logindbtablename>
+    <logindbusername>nikhil</logindbusername>
+    <logindbpassword>1234</logindbpassword>
+    
+    <admindbdriver>org.apache.derby.jdbc.ClientDriver</admindbdriver>
+    <admindburl>jdbc:derby://localhost:1527/admin</admindburl>
+    <admindbtablename>admin</admindbtablename>
+    <admindbusername>nikhil</admindbusername>
+    <admindbpassword>123</admindbpassword>
+ 
+</root>

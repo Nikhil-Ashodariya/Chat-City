@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="learningfxml.ChatframeController">
+    <children>
+        <ListView fx:id="userlist" layoutX="14.0" layoutY="492.0" prefHeight="110.0" prefWidth="134.0" />
+        <TextField fx:id="message" layoutX="156.0" layoutY="534.0" onAction="#sendmessage" text="" />
+        <Button fx:id="sendbutton" layoutX="327.0" layoutY="534.0" mnemonicParsing="false" onAction="#sendmessage" text="Send Message" textAlignment="JUSTIFY" textFill="#901515" textOverrun="CENTER_ELLIPSIS">
+            <effect>
+                <InnerShadow color="#861313" radius="7.035" width="9.14">
+                    <input>
+                        <Blend mode="OVERLAY" opacity="0.52" />
+                    </input>
+                </InnerShadow>
+            </effect>
+        </Button>
+        <TextField fx:id="destination" layoutX="432.0" layoutY="534.0" onAction="#sendmessage" text="" />
+        <Button fx:id="signout" layoutX="598.0" layoutY="302.0" mnemonicParsing="false" onAction="#signout" text="Sign Out">
+            <textFill>
+                <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                    <stops>
+                        <Stop color="#111010" />
+                        <Stop color="#e43a3a" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </textFill>
+        </Button>
+        <TextArea fx:id="messagearea" layoutX="7.0" layoutY="117.0" prefHeight="363.0" prefWidth="522.0"/>
+        <ImageView fx:id="adsview" fitHeight="150.0" fitWidth="200.0" layoutX="529.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" />
+        <Text fill="#4a1dc4" fontSmoothingType="LCD" layoutX="60.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Communicating using ECS" wrappingWidth="651.13671875">
+            <font>
+                <Font name="Monotype Corsiva" size="49.0" />
+            </font>
+        </Text>
+        <Label fx:id="status" layoutX="81.0" layoutY="81.0" prefHeight="17.0" prefWidth="422.0" />
+        <Button fx:id="modifyfriends" alignment="CENTER_RIGHT" layoutX="568.0" layoutY="357.0" mnemonicParsing="false" onAction="#modifyfriends" opacity="0.72" prefHeight="34.0" prefWidth="123.0" text="Modify Friends" textFill="#ff1cc8">
+            <font>
+                <Font name="Monotype Corsiva" size="17.0" />
+            </font>
+            <effect>
+                <DropShadow color="#e40101b5" />
+            </effect>
+        </Button>
+    </children>
+</AnchorPane>
